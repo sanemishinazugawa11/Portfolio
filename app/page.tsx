@@ -23,7 +23,6 @@ export default function Home() {
       scrollTrigger:{
         trigger:'.two',
         start: 'top 50%',
-        markers:true,
         end: 'bottom bottom',
         scrub: 5
       },
