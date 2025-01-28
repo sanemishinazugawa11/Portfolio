@@ -44,7 +44,7 @@ export default function Home() {
         <section className="absolute  top-0  w-full h-[60vh] sm:h-[60vh] p-5 bg-neutral-950/20 rounded-xl ">
           <section className="mt-28 leading-5">
             <h1 className="font-manrope font-normal text-3xl sm:text-4xl mt-10 ml-10 text-white">Hello,</h1>
-            <h1 className="font-manrope font-normal text-4xl sm:text-5xl ml-10 text-white">I&aposm Bhuvan.</h1>
+            <h1 className="font-manrope font-normal text-4xl sm:text-5xl ml-10 text-white">I am Bhuvan.</h1>
             <h3 className="font-manrope font-medium  text-sm sm:text-xl ml-10 mt-3 text-white">A 20 year old Computer Science student from Banglore, India.
               <br />
               I develop fullstack web applications and my interest lies in creating creative user interfaces and experiences.
