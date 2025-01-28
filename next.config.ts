@@ -2,9 +2,9 @@ import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
   /* config options here */
-  devIndicators:{
-    
-  }
+  images: {
+    domains: ['imgs.search.brave.com'],
+  },
 };
 
 export default nextConfig;

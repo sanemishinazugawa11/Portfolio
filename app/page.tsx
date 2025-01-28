@@ -2,6 +2,7 @@
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react"
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
+import Image from "next/image";
 gsap.registerPlugin(ScrollTrigger);
 
 
@@ -61,22 +62,21 @@ export default function Home() {
           <h1 className="text-white text-sm sm:text-xl font-manrope text-start ml-6 mr-4 sm:-mt-7 md:ml-10">I am currently looking for internship and freelance clients to enhance my skills and knowledge</h1>
           <div className="ml-6 sm:ml-10 mt-4 sm:mt-8 items-center border-[0.8px] border-x-slate-600 border-y-slate-500 w-40 gap-2 justify-center px-1 rounded-lg py-2 flex">
             <a className="font-manrope text-md sm:text-lg  text-white" target="_blank" href="https://github.com/sanemishinazugawa11?tab=repositories">My projects</a>
-           
+
 
           </div>
           <h2 className="font-manrope text-lg sm:text-2xl capitalize ml-6 sm:ml-10 mt-6 sm:mt-10 text-slate-100">lets connect.</h2>
 
           <div className="w-full h-20 flex  items-center mt-5 sm:-mt-7 lg:-mt-5 ml-6 sm:ml-10 lg:ml-10 gap-5 lg:gap-7">
             <a href="https://github.com/sanemishinazugawa11" target="_blank">
-              <img className=" w-8 lg:w-10 h-8 lg:h-10" src="https://imgs.search.brave.com/9csQs7n45LOxCX5IKDCmwlJH7UaNxfcbjhQ8eru1tE4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8y/LzI0L0dpdGh1Yl9s/b2dvX3N2Zy5zdmc" alt="" />
+              <Image width={40} height={40}  className=" w-8 lg:w-10 h-8 lg:h-10" alt="" src='https://imgs.search.brave.com/9csQs7n45LOxCX5IKDCmwlJH7UaNxfcbjhQ8eru1tE4/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy8y/LzI0L0dpdGh1Yl9s/b2dvX3N2Zy5zdmc'/>
             </a>
             <a href="" target="_blank">
-              <img className=" w-8 lg:w-10 h-8 lg:h-10" src="https://imgs.search.brave.com/GpB5WQlesvec2MXDXDV3SmKb0pzSJzyH667WAzbxGcs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9j/L2NhL0xpbmtlZElu/X2xvZ29faW5pdGlh/bHMucG5n" alt="" />
+              <Image width={40}  height={40} className=" w-8 lg:w-10 h-8 lg:h-10" alt="" src='https://imgs.search.brave.com/GpB5WQlesvec2MXDXDV3SmKb0pzSJzyH667WAzbxGcs/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly91cGxv/YWQud2lraW1lZGlh/Lm9yZy93aWtpcGVk/aWEvY29tbW9ucy9j/L2NhL0xpbmtlZElu/X2xvZ29faW5pdGlh/bHMucG5n' />
 
             </a>
             <a href="mailto:ksbhuvi2004@gmail.com" target="_blank">
-              <img className="w-8 lg:w-10 h-6 lg:h-8" src="https://imgs.search.brave.com/jFmFDrCTPMA8z45brWdMcu02rHvnwxWsV5_KaxLCu0A/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tYWls/bWV0ZW9yLmNvbS9s/b2dvcy9hc3NldHMv/UE5HL0dtYWlsX0xv/Z29fMTI4cHgucG5n" alt="" />
-
+              <Image width={40} height={40}  alt="" src='https://imgs.search.brave.com/jFmFDrCTPMA8z45brWdMcu02rHvnwxWsV5_KaxLCu0A/rs:fit:500:0:0:0/g:ce/aHR0cHM6Ly9tYWls/bWV0ZW9yLmNvbS9s/b2dvcy9hc3NldHMv/UE5HL0dtYWlsX0xv/Z29fMTI4cHgucG5n'/>
             </a>
 
           </div>
